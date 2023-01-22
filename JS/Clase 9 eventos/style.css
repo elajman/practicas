@@ -1,0 +1,105 @@
+/*Nav*/
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 25px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.red {
+  color: rgb(188, 60, 60);
+}
+
+a.btn.btn-primary.ingreso {
+  width: 150px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  margin-top: 9px;
+}
+
+.navbar-header {
+  margin-top: 9px;
+}
+
+div#bs-promo-navbar-collapse-1 {
+  background-color: black;
+}
+
+a.navbar-brand {
+  display: flex;
+  margin: 10px;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse {
+  background-color: black;
+}
+
+ul.nav.navbar-nav.navbar-right {
+  margin: 10px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  margin: 4px 0 0;
+  margin-top: 1px\9;
+  line-height: normal;
+  margin: 10px;
+}
+
+input#button-servicio {
+  background-color: white;
+  color: black;
+}
+
+div#contenedorProductos {
+  display: flex;
+  text-align: -webkit-center;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+img {
+  height: 45%;
+}
+
+div#contenedorCarrito {
+  border: 3px solid;
+  width: 30%;
+  margin-bottom: 5%;
+  background-color: rgb(185, 163, 208);
+  margin-left: 5%;
+}
+
+.buscador {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-item {
+    line-height: 80px;
+  }
+}
+
